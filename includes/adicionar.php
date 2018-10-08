@@ -5,13 +5,13 @@ include_once 'header.php';
 
 <div class="container text-center">
     <div class="row">
-        <h3>Novo Clientes</h3>
+        <h3>Novo Cliente</h3>
     </div>
     </div><!--END CONTAINER   -->
     
     <!--  --><div class="container mt-4">
         
-            <form>
+            <form action="./php_action/create.php" method="POST">
               
             <div class="form-row">
                 <div class="col">
@@ -36,8 +36,9 @@ include_once 'header.php';
                 </div>
             </div>                           
                 
-                <button type="submit" class="btn btn-primary mt-2">CADASTRAR</button>
-                <button type="button" class="btn btn-success">LISTA DE CLIENTES</button>
+                <button type="submit" name="btn-cadastrar" class="btn btn-primary mt-2">CADASTRAR</button>
+                <a href="../index.php"><button type="button" class="btn btn-success">LISTA DE CLIENTES</button></a>
+                
             </form>
         
     </div>

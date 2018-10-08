@@ -34,7 +34,7 @@ include_once 'includes/header.php';
                     </tr>
                 </tbody>
             </table>
-            <a href=""><button type="button" class="btn btn-primary">Adicionar Clientes</button></a>
+            <a href="includes/adicionar.php"><button type="button" class="btn btn-primary">Adicionar Clientes</button></a>
         </div>
     </div>
 
