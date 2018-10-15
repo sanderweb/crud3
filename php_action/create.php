@@ -13,7 +13,7 @@ $sql = "INSERT INTO clientes (nome, sobrenome, email, idade) VALUES ('$nome', '$
 if(mysqli_query($connect, $sql)):
     header('Location: ../index.php?sucesso');
 else:
-    header('Location: ../index.php?erro');
+    header('Location: .../index.php?erro');
     endif;
 endif;
 ?>

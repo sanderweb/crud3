@@ -1,6 +1,6 @@
 <?php
 //HEADER
-include_once 'header.php';
+include_once '../includes/header.php';
 ?>
 
 <div class="container text-center">
@@ -9,9 +9,8 @@ include_once 'header.php';
     </div>
     </div><!--END CONTAINER   -->
     
-    <!--  --><div class="container mt-4">
-        
-            <form action="./php_action/create.php" method="POST">
+    <div class="container mt-4">        
+        <form action="php_action/create.php" method="POST">
               
             <div class="form-row">
                 <div class="col">
@@ -23,7 +22,7 @@ include_once 'header.php';
                     <input class="form-control" type="text" placeholder="Digite o seu sobrenome">
                 </div>
             </div>
-              
+
             <div class="form-row mt-3">
                 <div class="col-6">
                     <label for="exampleInputEmail1">Endereço de email</label>
@@ -35,12 +34,11 @@ include_once 'header.php';
                     <input class="form-control" type="text" placeholder="2 Digitos">                    
                 </div>
             </div>                           
-                
+
                 <button type="submit" name="btn-cadastrar" class="btn btn-primary mt-2">CADASTRAR</button>
                 <a href="../index.php"><button type="button" class="btn btn-success">LISTA DE CLIENTES</button></a>
                 
-            </form>
-        
+        </form>        
     </div>
     
     
@@ -50,5 +48,5 @@ include_once 'header.php';
 
 <?php
 //FOOTER
-include_once 'footer.php';
+include_once '../includes/footer.php';
 ?>
